@@ -1,7 +1,7 @@
 # Quiz-App-PHP
 
-<h4>Quiz Application made with PHP and Front-End Technologies. <br><br>
-  Concepts and Methods implemented in this project are as follows : </h4> 
+<h3>Quiz Application made with PHP and Front-End Technologies. </h3> 
+<h4>Concepts and Methods implemented in this project : </h4> 
 
 - Data Fetching from forms to PHP Scripts.
 - PHP Form Validation
@@ -10,7 +10,7 @@
 
 <hr>
 
-<h3>Development Logs : </h3>
+<h4>Development Logs : </h4>
 
 - March 26, 2022 : <em>Added the basic templates/structure for the project and made different PHP scripts for respective routes.</em>
 - March 27, 2022 : <em>Completed designing the pages/scripts for Home and Play Route with achieving the redirect functionality for user choice quiz.</em> 
