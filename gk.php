@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -77,7 +79,7 @@
         }
 
         main {
-            margin-top: 10vh
+            margin: 10vh 15vw;
         }
 
         #quiz input {
@@ -86,20 +88,87 @@
 
         #quiz ol {
             margin: 0 0 10px 20px;
+            font-size: 1.4rem;
+            padding: 4vh 3vw;
+            font-family: 'Montserrat', sans-serif;
         }
 
         #quiz ol li {
             margin: 0 0 20px 0;
+            border: 3px solid #5D8BF4;
+            padding: 4vh 3vw;
+            border-radius: 20px;
+            background: rgba(21, 29, 59, 0.4);
         }
 
         #quiz ol li div {
-            padding: 4px 0;
+            padding: 1rem 2rem;
+            border: 1px solid white;
+            margin: 0.8rem 0;
+            border-radius: 10px;
+        }
+
+        #quiz ol li div:hover {
+            background: rgba(33, 159, 148,0.2);
         }
 
         #quiz h3 {
-            font-size: 17px;
-            margin: 0 0 1px 0;
-            color: #666;
+            margin: 0 0 1rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4rem;
+            color: #FFBDE6;
+            font-weight: 600;
+        }
+
+        label {
+            color: #EFFFFD;
+            font-size: 1.2rem;
+            font-family: 'Noto Serif', serif;
+        }
+
+        input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+
+            border-radius: 50%;
+            width: 1.3rem;
+            height: 1.3rem;
+
+            border: 2px solid #999;
+            transition: 0.2s all linear;
+            margin-right: 10px;
+        }
+
+        input:checked {
+            border: 7px solid #00B4D8;
+            outline: unset !important;
+        }
+
+        .submitbtn{
+            cursor : pointer;
+            margin : 2vh 27vw; 
+            padding : 1rem 7rem;
+            font-size : 1.3rem;
+            font-weight : 700;
+            border-radius : 20px;
+            color : #FBD6D2;
+            border : 2px solid #FBD6D2;
+            background-color : rgba(206, 73, 191,0.2);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .submitbtn:hover{
+            border : 2px solid snow;
+            color : snow;
+            background-color : rgba(241, 0, 134,0.2);
+        }
+
+        .page-head{
+            font-family: 'Montserrat', sans-serif;
+            margin-left : 22vw;
+            margin-top : 3vh;
+            font-size : 2.1rem;
         }
     </style>
 </head>
@@ -109,89 +178,91 @@
 
     <main>
         <form action="result.php" method="post" id="quiz">
+            <h1 class="page-head">General Knowledge Quiz</h1>
             <ol>
 
-                <li>
+                <input type="radio" name="cate" value="gk" checked="checked" style="display:none" />
 
-                    <h3>WordPress is a...</h3>
+                <li>
+                    <h3>Which city is known as Silicon Valley of India?</h3>
 
                     <div>
                         <input type="radio" name="q1-answers" value="A" />
-                        <label>A) Software </label>
+                        <label>A) Hyderabad </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="B" />
-                        <label>B) Web App</label>
+                        <label>B) Chennai </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="C" />
-                        <label>C) CMS</label>
+                        <label>C) Bangalore</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="D" />
-                        <label>D) Other</label>
+                        <label>D) Madurai</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>SEO is Part Of...</h3>
+                    <h3>Full Form of PhD is ________</h3>
 
                     <div>
                         <input type="radio" name="q2-answers" value="A" />
-                        <label>A) Video Editing</label>
+                        <label>A) Physical Doctory</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="B" />
-                        <label>B) Graphic Designing</label>
+                        <label>B) Doctor of Philanthrophy</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="C" />
-                        <label>C) Web Designing</label>
+                        <label>C) Doctrine in Philosophy</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="D" />
-                        <label>D) Digital Marketing</label>
+                        <label>D) Doctor of Philosophy</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>PHP is a....</h3>
+                    <h3>Which is the Closest Star System to Solar System?</h3>
 
                     <div>
                         <input type="radio" name="q3-answers" value="A" />
-                        <label>A) Server Side Script</label>
+                        <label>A) Alpha Centauri</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="B" />
-                        <label>B) Programming Language</label>
+                        <label>B) Proxima Centauri</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="C" />
-                        <label>C) Markup Language</label>
+                        <label>C) Kepler-90</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="D" />
-                        <label>D) None Of Above These</label>
+                        <label>D) Canis Major</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Localhost IP is..</h3>
+                    <h3>Localhost IP address is ______</h3>
 
                     <div>
                         <input type="radio" name="q4-answers" value="A" />
@@ -205,45 +276,45 @@
 
                     <div>
                         <input type="radio" name="q4-answers" value="C" />
-                        <label>C) 1080:80</label>
+                        <label>C) 255.0.0.0</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="D" />
-                        <label>D) Any Other</label>
+                        <label>D) None of the above</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Webdevtrick Is For</h3>
+                    <h3>Which of these creatures belongs from Human Imagination?</h3>
 
                     <div>
                         <input type="radio" name="q5-answers" value="A" />
-                        <label>A) Web Designer</label>
+                        <label>A) Titanoboa</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="B" />
-                        <label>B) Web Developer</label>
+                        <label>B) Megalodon</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="C" />
-                        <label>C) Graphic Designer</label>
+                        <label>C) Leatherback Sea Turtle</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="D" />
-                        <label>D) All Above These</label>
+                        <label>D) Kappa</label>
                     </div>
 
                 </li>
 
             </ol>
 
-            <input type="submit" value="Submit" class="submitbtn" />
+            <button type="submit" class="submitbtn">Submit</button>
         </form>
     </main>
 

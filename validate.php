@@ -67,15 +67,16 @@
             margin : 0 12vw;
             padding : 1rem 10rem;
             font-size : 1.5rem;
-            border : 3px solid #222831;
+            border : 3px solid #F9ED69;
             border-radius : 55px; 
             margin-top : 5vh;
-            background-color : rgba(17, 153, 158,0.2);
+            background-color : rgba(17, 153, 158,0.1);
         }
 
         button:hover{
-            color : #F08A5D;
-            background-color : rgba(60, 38, 100,0.2);
+            color : #A2D5AB;
+            background-color : rgba(57, 174, 169,0.2);
+            border : 3px solid #A2D5AB;
         }
 
     </style>
