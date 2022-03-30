@@ -184,130 +184,130 @@
                 <input type="radio" name="cate" value="comp" checked="checked" style="display:none" />
 
                 <li>
-                    <h3>Which city is known as Silicon Valley of India?</h3>
+                    <h3>Who was the creator of JavaScript?</h3>
 
                     <div>
                         <input type="radio" name="q1-answers" value="A" />
-                        <label>A) Hyderabad </label>
+                        <label>A) Brendan Eich </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="B" />
-                        <label>B) Chennai </label>
+                        <label>B) James Barksdale </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="C" />
-                        <label>C) Bangalore</label>
+                        <label>C) James Gosling</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="D" />
-                        <label>D) Madurai</label>
+                        <label>D) Larry Wall</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Full Form of PhD is ________</h3>
+                    <h3>Which was the first version of Windows?</h3>
 
                     <div>
                         <input type="radio" name="q2-answers" value="A" />
-                        <label>A) Physical Doctory</label>
+                        <label>A) Windows 1</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="B" />
-                        <label>B) Doctor of Philanthrophy</label>
+                        <label>B) Windows 95</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="C" />
-                        <label>C) Doctrine in Philosophy</label>
+                        <label>C) Windows XP</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="D" />
-                        <label>D) Doctor of Philosophy</label>
+                        <label>D) Windows Me</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which is the Closest Star System to Solar System?</h3>
+                    <h3>Who is called Father of Computer?</h3>
 
                     <div>
                         <input type="radio" name="q3-answers" value="A" />
-                        <label>A) Alpha Centauri</label>
+                        <label>A) Alan Turing</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="B" />
-                        <label>B) Proxima Centauri</label>
+                        <label>B) Blaise Pascal</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="C" />
-                        <label>C) Kepler-90</label>
+                        <label>C) Charles Babbage</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="D" />
-                        <label>D) Canis Major</label>
+                        <label>D) Henry Edward Roberts</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Localhost IP address is ______</h3>
+                    <h3>How many major manufacturers of computer processors?</h3>
 
                     <div>
                         <input type="radio" name="q4-answers" value="A" />
-                        <label>A) 192.168.0.1</label>
+                        <label>A) 5</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="B" />
-                        <label>B) 127.0.0.0</label>
+                        <label>B) 10</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="C" />
-                        <label>C) 255.0.0.0</label>
+                        <label>C) 3</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="D" />
-                        <label>D) None of the above</label>
+                        <label>D) 2</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which of these creatures belongs from Human Imagination?</h3>
+                    <h3>Which is the First and Oldest home video game console in the world?</h3>
 
                     <div>
                         <input type="radio" name="q5-answers" value="A" />
-                        <label>A) Titanoboa</label>
+                        <label>A) Nintendo Entertainment System (NES)</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="B" />
-                        <label>B) Megalodon</label>
+                        <label>B) Magnavox Odyssey</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="C" />
-                        <label>C) Leatherback Sea Turtle</label>
+                        <label>C) Telstar</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="D" />
-                        <label>D) Kappa</label>
+                        <label>D) Electrotennis</label>
                     </div>
 
                 </li>

@@ -184,130 +184,130 @@
                 <input type="radio" name="cate" value="sci" checked="checked" style="display:none" />
 
                 <li>
-                    <h3>Which city is known as Silicon Valley of India?</h3>
+                    <h3>Which Is The Most Abundant Element In The Universe?</h3>
 
                     <div>
                         <input type="radio" name="q1-answers" value="A" />
-                        <label>A) Hyderabad </label>
+                        <label>A) Carbon</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="B" />
-                        <label>B) Chennai </label>
+                        <label>B) Hydrogen</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="C" />
-                        <label>C) Bangalore</label>
+                        <label>C) Helium</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="D" />
-                        <label>D) Madurai</label>
+                        <label>D) Oxygen</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Full Form of PhD is ________</h3>
+                    <h3>Which scientist/inventor put forward the concept of Wireless Electricity?</h3>
 
                     <div>
                         <input type="radio" name="q2-answers" value="A" />
-                        <label>A) Physical Doctory</label>
+                        <label>A) Michael Faraday</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="B" />
-                        <label>B) Doctor of Philanthrophy</label>
+                        <label>B) Thomas Alva Edison</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="C" />
-                        <label>C) Doctrine in Philosophy</label>
+                        <label>C) Albert Einstein</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="D" />
-                        <label>D) Doctor of Philosophy</label>
+                        <label>D) Nikola Tesla</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which is the Closest Star System to Solar System?</h3>
+                    <h3>Which of these is not a greenhouse gas?</h3>
 
                     <div>
                         <input type="radio" name="q3-answers" value="A" />
-                        <label>A) Alpha Centauri</label>
+                        <label>A) Carbon Dioxide</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="B" />
-                        <label>B) Proxima Centauri</label>
+                        <label>B) Methane</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="C" />
-                        <label>C) Kepler-90</label>
+                        <label>C) Nitrogen</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="D" />
-                        <label>D) Canis Major</label>
+                        <label>D) Nitrous Oxide</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Localhost IP address is ______</h3>
+                    <h3>How many Natural States of Matter are present in the Universe? </h3>
 
                     <div>
                         <input type="radio" name="q4-answers" value="A" />
-                        <label>A) 192.168.0.1</label>
+                        <label>A) 3</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="B" />
-                        <label>B) 127.0.0.0</label>
+                        <label>B) 4</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="C" />
-                        <label>C) 255.0.0.0</label>
+                        <label>C) 5</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="D" />
-                        <label>D) None of the above</label>
+                        <label>D) 18</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which of these creatures belongs from Human Imagination?</h3>
+                    <h3>Which technology is used by submarines to detect objects and navigate underwater?</h3>
 
                     <div>
                         <input type="radio" name="q5-answers" value="A" />
-                        <label>A) Titanoboa</label>
+                        <label>A) SONAR</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="B" />
-                        <label>B) Megalodon</label>
+                        <label>B) Radiowave vision</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="C" />
-                        <label>C) Leatherback Sea Turtle</label>
+                        <label>C) UV navigation</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="D" />
-                        <label>D) Kappa</label>
+                        <label>D) Ultrasound navigation</label>
                     </div>
 
                 </li>

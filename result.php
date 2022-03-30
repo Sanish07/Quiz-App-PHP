@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -76,9 +78,22 @@
         }
 
         main {
-            margin-top: 10vh;
+            text-align : center;
+            margin-top: 6vh;
             color : white;
             padding : 15vh 25vw;
+        }
+
+        #results{
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            font-size : 1.6rem;
+            color : #FFFDDE;
+        }
+
+        h1{
+            font-size : 3.1rem;
+            font-family: 'Montserrat', sans-serif;
+            color : #FFEEAD;
         }
     </style>
 </head>
@@ -93,11 +108,47 @@
 
             <?php
             
-            $answer1 = $_POST['q1-answers'];
-            $answer2 = $_POST['q2-answers'];
-            $answer3 = $_POST['q3-answers'];
-            $answer4 = $_POST['q4-answers'];
-            $answer5 = $_POST['q5-answers'];
+            $unattempted = 0;
+
+            if(isset($_POST['q1-answers'])){
+                $answer1 = $_POST['q1-answers'];
+            }
+            else {
+                $answer1 = "";
+                $unattempted++;
+            }
+
+            if(isset($_POST['q2-answers'])){
+                $answer2 = $_POST['q2-answers'];
+            }
+            else {
+                $answer2 = "";
+                $unattempted++;
+            }
+
+            if(isset($_POST['q3-answers'])){
+                $answer3 = $_POST['q3-answers'];
+            }
+            else {
+                $answer3 = "";
+                $unattempted++;
+            }
+
+            if(isset($_POST['q4-answers'])){
+                $answer4 = $_POST['q4-answers'];
+            }
+            else {
+                $answer4 = "";
+                $unattempted++;
+            }
+
+            if(isset($_POST['q5-answers'])){
+                $answer5 = $_POST['q5-answers'];
+            }
+            else {
+                $answer5 = "";
+                $unattempted++;
+            }
 
             $category = $_POST['cate'];
         
@@ -110,7 +161,35 @@
                 if ($answer4 == "B") { $totalCorrect++; }
                 if ($answer5 == "D") { $totalCorrect++; }
             }
-            echo "<div id='results'>$totalCorrect / 5 correct</div>";
+
+            if($category == "gk"){
+                if ($answer1 == "C") { $totalCorrect++; }
+                if ($answer2 == "A") { $totalCorrect++; }
+                if ($answer3 == "A") { $totalCorrect++; }
+                if ($answer4 == "D") { $totalCorrect++; }
+                if ($answer5 == "D") { $totalCorrect++; }
+            }
+
+            if($category == "sci"){
+                if ($answer1 == "B") { $totalCorrect++; }
+                if ($answer2 == "D") { $totalCorrect++; }
+                if ($answer3 == "C") { $totalCorrect++; }
+                if ($answer4 == "B") { $totalCorrect++; }
+                if ($answer5 == "A") { $totalCorrect++; }
+            }
+
+            if($category == "comp"){
+                if ($answer1 == "A") { $totalCorrect++; }
+                if ($answer2 == "A") { $totalCorrect++; }
+                if ($answer3 == "C") { $totalCorrect++; }
+                if ($answer4 == "D") { $totalCorrect++; }
+                if ($answer5 == "B") { $totalCorrect++; }
+            }
+
+            echo "<div id='results'>
+            $totalCorrect / 5 correct <br> 
+            Unattempted Questions : $unattempted
+            </div>";
             
         ?>
     </main>

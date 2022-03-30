@@ -184,130 +184,130 @@
                 <input type="radio" name="cate" value="gk" checked="checked" style="display:none" />
 
                 <li>
-                    <h3>Which city is known as Silicon Valley of India?</h3>
+                    <h3>Which is the World’s Saltiest Sea?</h3>
 
                     <div>
                         <input type="radio" name="q1-answers" value="A" />
-                        <label>A) Hyderabad </label>
+                        <label>A) Baltic Sea </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="B" />
-                        <label>B) Chennai </label>
+                        <label>B) Red Sea </label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="C" />
-                        <label>C) Bangalore</label>
+                        <label>C) Dead Sea</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q1-answers" value="D" />
-                        <label>D) Madurai</label>
+                        <label>D) Black Sea</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Full Form of PhD is ________</h3>
+                    <h3>Which is the Most distant object/structure in Solar System?</h3>
 
                     <div>
                         <input type="radio" name="q2-answers" value="A" />
-                        <label>A) Physical Doctory</label>
+                        <label>A) Farfarout</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="B" />
-                        <label>B) Doctor of Philanthrophy</label>
+                        <label>B) Kuiper Belt</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="C" />
-                        <label>C) Doctrine in Philosophy</label>
+                        <label>C) Pluto</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q2-answers" value="D" />
-                        <label>D) Doctor of Philosophy</label>
+                        <label>D) Neptune</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which is the Closest Star System to Solar System?</h3>
+                    <h3>Which tree is called as The Most Dangerous Tree in the World by "The Guinness Book of World Records"?</h3>
 
                     <div>
                         <input type="radio" name="q3-answers" value="A" />
-                        <label>A) Alpha Centauri</label>
+                        <label>A) The Manchineel tree</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="B" />
-                        <label>B) Proxima Centauri</label>
+                        <label>B) The Sandbox Tree</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="C" />
-                        <label>C) Kepler-90</label>
+                        <label>C) Cerbera Odollam</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q3-answers" value="D" />
-                        <label>D) Canis Major</label>
+                        <label>D) Hemlock</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Localhost IP address is ______</h3>
+                    <h3>From which country did COVID-19 (SARS COV-2) Virus originated?</h3>
 
                     <div>
                         <input type="radio" name="q4-answers" value="A" />
-                        <label>A) 192.168.0.1</label>
+                        <label>A) Germany</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="B" />
-                        <label>B) 127.0.0.0</label>
+                        <label>B) South Africa</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="C" />
-                        <label>C) 255.0.0.0</label>
+                        <label>C) USA</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q4-answers" value="D" />
-                        <label>D) None of the above</label>
+                        <label>D) China</label>
                     </div>
 
                 </li>
 
                 <li>
 
-                    <h3>Which of these creatures belongs from Human Imagination?</h3>
+                    <h3>Which is the largest network of labyrinth(maze) in the world?</h3>
 
                     <div>
                         <input type="radio" name="q5-answers" value="A" />
-                        <label>A) Titanoboa</label>
+                        <label>A) The Masone Labyrinth, Italy</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="B" />
-                        <label>B) Megalodon</label>
+                        <label>B) Yancheng, China</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="C" />
-                        <label>C) Leatherback Sea Turtle</label>
+                        <label>C) Labyrinth of Villa Pisani, Italy</label>
                     </div>
 
                     <div>
                         <input type="radio" name="q5-answers" value="D" />
-                        <label>D) Kappa</label>
+                        <label>D) Odessa Catacombs, Ukraine</label>
                     </div>
 
                 </li>
